@@ -2,6 +2,9 @@
 
 <h2>burgers that are not devoured!</h2>
 
+<div>
+  <div>
+
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
@@ -9,6 +12,10 @@
     {{/unless}}
   {{/each}}
 </ul>
+
+</div>
+
+<div>
 
 <h2>burgers that are devoured!</h2>
 
@@ -19,6 +26,10 @@
     {{/if}}
   {{/each}}
 </ul>
+
+</div>
+
+</div>
 
 <h2>Add a Burger</h2>
 <form class="create-form">
@@ -33,6 +44,8 @@
     <input type="radio" name="devoured" value="1" checked> devoured!<br>
     <input type="radio" name="devoured" value="0"> Hungry
   </div>
+
+  
 
   <button type="submit">Add Burger</button>
 </form>
