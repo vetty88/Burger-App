@@ -4,10 +4,10 @@ li {
   background: #faebd7;
 }
 
-ul li:before {    
+ul li:before {
   font-family: 'FontAwesome';
   content: '\f805';
-  margin:0 5px 0 -15px;
+  margin: 0 5px 0 -15px;
   color: black;
 }
 
